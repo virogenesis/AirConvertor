@@ -57,7 +57,7 @@ public class BluetoothByteStream {
 	
 	private void appendByteToArray(byte inputByte){
 		//byteStream.size();  // Broj koliko ima bajtova trenutno
-		// NEka izmena
+
 		byteStream.add(inputByte);
 		
 		if(byteStream.size() == 12){ // USLOV DA JE KRAJ //
